@@ -1,0 +1,15 @@
+.panda-bg-dark{
+  background-color: #FEEAE9;
+}
+.panda-text-light{
+  color: #1F1F1F;
+}
+.panda-btn-primary{
+    background-image: linear-gradient(#d6216a 0%,
+    #ff131f 100%);
+}
+.categories img{
+  width: 100px;
+}
+#FF589B @ 0%
+#FF136F @ 100%
