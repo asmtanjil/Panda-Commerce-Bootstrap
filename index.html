@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>Panda Commerce</title>
     <!-- Bootstrap Style Starts -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
 <!-- Bootstrap Style Ends -->
@@ -26,10 +26,10 @@
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Shoes</a>
+                <a class="nav-link" href="#shoes">Shoes</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link disabled">Backpack</a>
+                <a class="nav-link" href="#bags">Bags</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link disabled">Watches</a>
@@ -43,7 +43,7 @@
       <section class="my-5">
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-inner">
-            <div class="carousel-item active bg-dark text-light p-5">
+            <div class="carousel-item active rounded-2 bg-dark text-light p-5">
               <div class="row">
                 <div class="col-lg-7 d-flex align-items-center">
                   <div>
@@ -58,7 +58,7 @@
                 </div>
               </div>
             </div>
-            <div class="carousel-item bg-dark text-light p-5">
+            <div class="carousel-item bg-dark rounded-2 text-light p-5">
               <div class="row">
                 <div class="col-lg-7 d-flex align-items-center">
                   <div>
@@ -73,7 +73,7 @@
                 </div>
               </div>
             </div>
-            <div class="carousel-item  bg-dark text-light p-5">
+            <div class="carousel-item  bg-dark rounded-2 text-light p-5">
               <div class="row">
                 <div class="col-lg-7 d-flex align-items-center">
                   <div>
@@ -136,8 +136,8 @@
       </section>
       <!-- categories  End -->
       
-      <!-- Shoes starts -->
-      <section class="container my-4">
+      <!-- Shoes start -->
+      <section id="shoes" class="container my-5">
         <h1 class="text-center mb-3">Shoes</h1>
        
         <div class="row row-cols-1 row-cols-md-2  row-cols-lg-3 g-4">
@@ -182,13 +182,14 @@
           </div>
           
         </div>
-
+        </section>
 <!-- Shoes-ends -->
 <!-- Bag-Starts -->
-<h1 class="text-center mb-2 mt-5">Bags</h1>
+        <section id="bags" class="container my-5">
+          <h1 class="text-center mb-3">Bags</h1>
 
         <div class="row row-cols-1 row-cols-md-3 g-4">
-          <div class="col d-flex align-items-center my-5">
+          <div class="col d-flex align-items-center">
             <div class="card border border-0 shadow-lg h-100">
               <img src="images/bags/bag-1.png" class="card-img-top" alt="...">
               <div class="card-body">
@@ -202,7 +203,7 @@
               </div>
             </div>
           </div>
-          <div class="col d-flex align-items-center my-5">
+          <div class="col d-flex align-items-center">
             <div class="card border border-0 shadow-lg h-100">
               <img src="images/bags/bag-2.png" class="card-img-top" alt="...">
               <div class="card-body">
@@ -215,7 +216,7 @@
               </div>
             </div>
           </div>
-          <div class="col d-flex align-items-center my-5">
+          <div class="col d-flex align-items-center">
             <div class="card border border-0 shadow-lg h-100">
               <img src="images/bags/bag-3.png" class="card-img-top" alt="...">
               <div class="card-body">
@@ -230,10 +231,32 @@
           </div>
           
         </div>
+        </section>
+      <!-- Bags end -->
 
+
+      <!-- Last Section Start -->
+      <section style="height: 35vh;" class="container rounded-3 d-flex flex-column justify-content-center align-items-center bg-dark text-light">
+        <div>
+          <h2>LET'S STAY IN TOUCH</h2>
+        <p>Get updates on sales specials and more</p>
+        <form>
+            <div class="mb-1">
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
       </section>
-      <!-- Bag ends -->
+      <!-- Last Section End -->
+
     </main>
+
+    <!-- Footer Start -->
+      <footer class="footer container-fluid mt-5 text-center">
+        <p><small>©2023 Panda Commerce. All right reserved. GodFather</small></p>
+      </footer>
+    <!-- Footer End -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
   </body>
 </html>
